@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace FizzBuzz
 {
-    class Program
+    public class Program
     {
-        const int LIMIT = 100;
-        const int THREE_BASE = 3;
-        const int FIVE_BASE = 5;
+        private const int LIMIT = 100;
+
         static void Main(string[] args)
         {
             Program program = new Program();
@@ -40,15 +39,15 @@ namespace FizzBuzz
 
         private string GetNumberOrMultiple(int number)
         {
-            if (IsMultiple(number, THREE_BASE) && IsMultiple(number, FIVE_BASE))
+            if (IsMultiple(number, 3) && IsMultiple(number, 5))
             {
                 return "FizzBuzz";
             }
-            else if (IsMultiple(number, THREE_BASE))
+            else if (IsMultiple(number, 3))
             {
                 return "Fizz";
             }
-            else if (IsMultiple(number, FIVE_BASE))
+            else if (IsMultiple(number, 5))
             {
                 return "Buzz";
             }
@@ -58,7 +57,7 @@ namespace FizzBuzz
             }
         }
 
-        private static bool IsMultiple(int number, int baseNumber)
+        private bool IsMultiple(int number, int baseNumber)
         {
             return number % baseNumber == 0;
         }
