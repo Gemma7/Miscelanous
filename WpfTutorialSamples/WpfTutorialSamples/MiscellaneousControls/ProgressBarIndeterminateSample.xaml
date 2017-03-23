@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfTutorialSamples.MiscellaneousControls.ProgressBarIndeterminateSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen"
+        Title="ProgressBarIndeterminateSample" Height="100" Width="300">
+    <Grid Margin="20">
+        <ProgressBar Minimum="0" Maximum="100" Name="pbStatus" IsIndeterminate="True"/>
+    </Grid>
+</Window>
