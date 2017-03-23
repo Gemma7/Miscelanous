@@ -3,11 +3,11 @@
 namespace WpfTutorialSamples.RichTextControls
 {
     /// <summary>
-    /// Interaction logic for ExtendedFlowDocumentSample.xaml
+    /// Interaction logic for BlockUIContainerSample.xaml
     /// </summary>
-    public partial class ExtendedFlowDocumentSample : Window
+    public partial class BlockUIContainerSample : Window
     {
-        public ExtendedFlowDocumentSample()
+        public BlockUIContainerSample()
         {
             InitializeComponent();
         }

@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -161,6 +162,39 @@
     <Compile Include="BasicControls\LabelControlSample.xaml.cs">
       <DependentUpon>LabelControlSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MiscellaneousControls\BorderSample.xaml.cs">
+      <DependentUpon>BorderSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MiscellaneousControls\ProgressBarIndeterminateSample.xaml.cs">
+      <DependentUpon>ProgressBarIndeterminateSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MiscellaneousControls\ProgressBarSample.xaml.cs">
+      <DependentUpon>ProgressBarSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MiscellaneousControls\ProgressBarTaskOnUiThread.xaml.cs">
+      <DependentUpon>ProgressBarTaskOnUiThread.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MiscellaneousControls\ProgressBarTaskOnWorkerThread.xaml.cs">
+      <DependentUpon>ProgressBarTaskOnWorkerThread.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MiscellaneousControls\ProgressBarTextSample.xaml.cs">
+      <DependentUpon>ProgressBarTextSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MiscellaneousControls\SliderBoundValueSample.xaml.cs">
+      <DependentUpon>SliderBoundValueSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MiscellaneousControls\SliderSample.xaml.cs">
+      <DependentUpon>SliderSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MiscellaneousControls\SliderSnapToTickSample.xaml.cs">
+      <DependentUpon>SliderSnapToTickSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MiscellaneousControls\SliderValueChangedSample.xaml.cs">
+      <DependentUpon>SliderValueChangedSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MiscellaneousControls\WebBrowserControlSample.xaml.cs">
+      <DependentUpon>WebBrowserControlSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Panels\Canvas.xaml.cs">
       <DependentUpon>Canvas.xaml</DependentUpon>
     </Compile>
@@ -212,8 +246,14 @@
     <Compile Include="ControlConcepts\ToolTipsSimpleSample.xaml.cs">
       <DependentUpon>ToolTipsSimpleSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RichTextControls\BlockUIContainerSample.xaml.cs">
+      <DependentUpon>BlockUIContainerSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RichTextControls\CodeBehindFlowDocumentSample.xaml.cs">
       <DependentUpon>CodeBehindFlowDocumentSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextControls\ExtendedFlowDocumentSample.xaml.cs">
+      <DependentUpon>ExtendedFlowDocumentSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="RichTextControls\FlowDocumentPageViewerSample.xaml.cs">
       <DependentUpon>FlowDocumentPageViewerSample.xaml</DependentUpon>
@@ -232,6 +272,31 @@
     </Compile>
     <Compile Include="RichTextControls\FlowDocumentTextAlignmentSample.xaml.cs">
       <DependentUpon>FlowDocumentTextAlignmentSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextControls\RichTextBoxParagraphSpacingSample.xaml.cs">
+      <DependentUpon>RichTextBoxParagraphSpacingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextControls\RichTextBoxSample.xaml.cs">
+      <DependentUpon>RichTextBoxSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextControls\RichTextBoxTextSelectionSample.xaml.cs">
+      <DependentUpon>RichTextBoxTextSelectionSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextControls\RichTextEditorSample.xaml.cs">
+      <DependentUpon>RichTextEditorSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextControls\User.cs" />
+    <Compile Include="TabControl\ControllingTheTabControlSample.xaml.cs">
+      <DependentUpon>ControllingTheTabControlSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabControl\TabControlSample.xaml.cs">
+      <DependentUpon>TabControlSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabControl\TabControlWithCustomHeadersSample.xaml.cs">
+      <DependentUpon>TabControlWithCustomHeadersSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabControl\TabStripPlacementSample.xaml.cs">
+      <DependentUpon>TabStripPlacementSample.xaml</DependentUpon>
     </Compile>
     <Page Include="BasicControls\CheckBoxSample.xaml">
       <SubType>Designer</SubType>
@@ -381,6 +446,50 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MiscellaneousControls\BorderSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MiscellaneousControls\ProgressBarIndeterminateSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MiscellaneousControls\ProgressBarSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MiscellaneousControls\ProgressBarTaskOnUiThread.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MiscellaneousControls\ProgressBarTaskOnWorkerThread.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MiscellaneousControls\ProgressBarTextSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MiscellaneousControls\SliderBoundValueSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MiscellaneousControls\SliderSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MiscellaneousControls\SliderSnapToTickSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MiscellaneousControls\SliderValueChangedSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MiscellaneousControls\WebBrowserControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Panels\Canvas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -505,9 +614,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="RichTextControls\BlockUIContainerSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="RichTextControls\CodeBehindFlowDocumentSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RichTextControls\ExtendedFlowDocumentSample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="RichTextControls\FlowDocumentPageViewerSample.xaml">
       <SubType>Designer</SubType>
@@ -530,6 +647,38 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RichTextControls\FlowDocumentTextAlignmentSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RichTextControls\RichTextBoxParagraphSpacingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RichTextControls\RichTextBoxSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RichTextControls\RichTextBoxTextSelectionSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RichTextControls\RichTextEditorSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TabControl\ControllingTheTabControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TabControl\TabControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TabControl\TabControlWithCustomHeadersSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TabControl\TabStripPlacementSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -621,7 +770,9 @@
     <Resource Include="Resources\page_white.ico" />
     <Resource Include="Resources\folder.ico" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Resources\WPFicon.ico" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\question.ico" />
   </ItemGroup>
@@ -632,6 +783,17 @@
     <Resource Include="Resources\Copy.ico" />
     <Resource Include="Resources\Cut.ico" />
     <Resource Include="Resources\Paste.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\go_left.ico" />
+    <Resource Include="Resources\go_right.ico" />
+    <Resource Include="Resources\world_go.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\bullet-red.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

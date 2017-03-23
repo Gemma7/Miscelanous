@@ -21,7 +21,8 @@ namespace WpfTutorialSamples.DataBinding
 
         private void NotifyPropertyChanged(string propName)
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
+            if (this.PropertyChanged != null)
+                this.PropertyChanged(this, new PropertyChangedEventArgs(propName));
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
