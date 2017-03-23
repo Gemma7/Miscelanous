@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfTutorialSamples.DataBinding.DataBindingDebuggingSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase"
+        xmlns:local="clr-namespace:WpfTutorialSamples.DataBinding"
+        WindowStartupLocation="CenterScreen"
+        Title="DataBindingDebuggingSample" Height="100" Width="200" Name="wnd">
+    <Window.Resources>
+        <local:DebugDummyConverter x:Key="DebugDummyConverter"/>
+    </Window.Resources>
+    <Grid Margin="10" Name="pnlMain">
+        <!--<TextBlock Text="{Binding NonExistingProperty, ElementName=pnlMain}"/>-->
+        <!--<TextBlock Text="{Binding Title, diag:PresentationTraceSources.TraceLevel=High}"/>-->
+        <TextBlock Text="{Binding Title, ElementName=wnd, Converter={StaticResource DebugDummyConverter}}"/>
+    </Grid>
+</Window>
