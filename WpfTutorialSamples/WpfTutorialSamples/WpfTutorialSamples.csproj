@@ -132,6 +132,13 @@
     </Compile>
     <Compile Include="DataBinding\User.cs" />
     <Compile Include="DataBinding\YesNoToBooleanConverter.cs" />
+    <Compile Include="DataGridControl\DataGridColumnsSample.xaml.cs">
+      <DependentUpon>DataGridColumnsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridControl\SimpleDataGridSample.xaml.cs">
+      <DependentUpon>SimpleDataGridSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridControl\User.cs" />
     <Compile Include="Dialogs\InputDialogAppSample.xaml.cs">
       <DependentUpon>InputDialogAppSample.xaml</DependentUpon>
     </Compile>
@@ -162,6 +169,72 @@
     <Compile Include="BasicControls\LabelControlSample.xaml.cs">
       <DependentUpon>LabelControlSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ListControls\ComboBoxCustomContentSample.xaml.cs">
+      <DependentUpon>ComboBoxCustomContentSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListControls\ComboBoxDataBindingSample.xaml.cs">
+      <DependentUpon>ComboBoxDataBindingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListControls\ComboBoxEditableSample.xaml.cs">
+      <DependentUpon>ComboBoxEditableSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListControls\ComboBoxSample.xaml.cs">
+      <DependentUpon>ComboBoxSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListControls\ComboBoxSelectionSample.xaml.cs">
+      <DependentUpon>ComboBoxSelectionSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListControls\ItemsControlDataBindingSample.xaml.cs">
+      <DependentUpon>ItemsControlDataBindingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListControls\ItemsControlPanelSample.xaml.cs">
+      <DependentUpon>ItemsControlPanelSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListControls\ItemsControlSample.xaml.cs">
+      <DependentUpon>ItemsControlSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListControls\ListBoxDataBindingSample.xaml.cs">
+      <DependentUpon>ListBoxDataBindingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListControls\ListBoxSample.xaml.cs">
+      <DependentUpon>ListBoxSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListControls\ListBoxSelectionSample.xaml.cs">
+      <DependentUpon>ListBoxSelectionSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListControls\TodoItem.cs" />
+    <Compile Include="ListViewControls\FilteringSample.xaml.cs">
+      <DependentUpon>FilteringSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewControls\ListViewBasicSample.xaml.cs">
+      <DependentUpon>ListViewBasicSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewControls\ListViewCollapseExpandGroupSample.xaml.cs">
+      <DependentUpon>ListViewCollapseExpandGroupSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewControls\ListViewColumnSortingSample.xaml.cs">
+      <DependentUpon>ListViewColumnSortingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewControls\ListViewDataBindingSample.xaml.cs">
+      <DependentUpon>ListViewDataBindingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewControls\ListViewGridViewCellTemplateSample.xaml.cs">
+      <DependentUpon>ListViewGridViewCellTemplateSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewControls\ListViewGridViewSample.xaml.cs">
+      <DependentUpon>ListViewGridViewSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewControls\ListViewGroupSample.xaml.cs">
+      <DependentUpon>ListViewGroupSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewControls\ListViewItemTemplateSample.xaml.cs">
+      <DependentUpon>ListViewItemTemplateSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewControls\ListViewSortingSample.xaml.cs">
+      <DependentUpon>ListViewSortingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewControls\SortAdorner.cs" />
+    <Compile Include="ListViewControls\User.cs" />
     <Compile Include="MiscellaneousControls\BorderSample.xaml.cs">
       <DependentUpon>BorderSample.xaml</DependentUpon>
     </Compile>
@@ -289,6 +362,12 @@
     <Compile Include="TabControl\ControllingTheTabControlSample.xaml.cs">
       <DependentUpon>ControllingTheTabControlSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TabControl\StyledTabItemsSample.xaml.cs">
+      <DependentUpon>StyledTabItemsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabControl\StyledTabItemsWithBorderSample.xaml.cs">
+      <DependentUpon>StyledTabItemsWithBorderSample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TabControl\TabControlSample.xaml.cs">
       <DependentUpon>TabControlSample.xaml</DependentUpon>
     </Compile>
@@ -297,6 +376,28 @@
     </Compile>
     <Compile Include="TabControl\TabStripPlacementSample.xaml.cs">
       <DependentUpon>TabStripPlacementSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TreeViewControl\Family.cs" />
+    <Compile Include="TreeViewControl\LazyLoadingSample.xaml.cs">
+      <DependentUpon>LazyLoadingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TreeViewControl\MyMenuItem.cs" />
+    <Compile Include="TreeViewControl\Person.cs" />
+    <Compile Include="TreeViewControl\TreeViewCustomItemsSample.xaml.cs">
+      <DependentUpon>TreeViewCustomItemsSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TreeViewControl\TreeViewDataBindingSample.xaml.cs">
+      <DependentUpon>TreeViewDataBindingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TreeViewControl\TreeViewItemBase.cs" />
+    <Compile Include="TreeViewControl\TreeViewMultipleTemplatesSample.xaml.cs">
+      <DependentUpon>TreeViewMultipleTemplatesSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TreeViewControl\TreeViewSample.xaml.cs">
+      <DependentUpon>TreeViewSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TreeViewControl\TreeViewSelectionExpansionSample.xaml.cs">
+      <DependentUpon>TreeViewSelectionExpansionSample.xaml</DependentUpon>
     </Compile>
     <Page Include="BasicControls\CheckBoxSample.xaml">
       <SubType>Designer</SubType>
@@ -394,6 +495,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DataGridControl\DataGridColumnsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataGridControl\SimpleDataGridSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Dialogs\InputDialogAppSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -431,6 +540,90 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="BasicControls\LabelControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListControls\ComboBoxCustomContentSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListControls\ComboBoxDataBindingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListControls\ComboBoxEditableSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListControls\ComboBoxSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListControls\ComboBoxSelectionSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListControls\ItemsControlDataBindingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListControls\ItemsControlPanelSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListControls\ItemsControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListControls\ListBoxDataBindingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListControls\ListBoxSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListControls\ListBoxSelectionSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListViewControls\FilteringSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListViewControls\ListViewBasicSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListViewControls\ListViewCollapseExpandGroupSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListViewControls\ListViewColumnSortingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListViewControls\ListViewDataBindingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListViewControls\ListViewGridViewCellTemplateSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListViewControls\ListViewGridViewSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListViewControls\ListViewGroupSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListViewControls\ListViewItemTemplateSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListViewControls\ListViewSortingSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -670,6 +863,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="TabControl\StyledTabItemsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TabControl\StyledTabItemsWithBorderSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TabControl\TabControlSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -679,6 +880,30 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TabControl\TabStripPlacementSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeViewControl\LazyLoadingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeViewControl\TreeViewCustomItemsSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeViewControl\TreeViewDataBindingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeViewControl\TreeViewMultipleTemplatesSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeViewControl\TreeViewSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeViewControl\TreeViewSelectionExpansionSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -794,6 +1019,13 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\bullet-red.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\group.ico" />
+    <Resource Include="Resources\user2.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

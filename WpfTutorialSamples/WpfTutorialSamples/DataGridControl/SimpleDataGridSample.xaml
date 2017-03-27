@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfTutorialSamples.DataGridControl.SimpleDataGridSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen"
+        Title="SimpleDataGridSample" Height="180" Width="300">
+    <Grid Margin="10">
+        <DataGrid Name="dgSimple"/>
+    </Grid>
+</Window>
