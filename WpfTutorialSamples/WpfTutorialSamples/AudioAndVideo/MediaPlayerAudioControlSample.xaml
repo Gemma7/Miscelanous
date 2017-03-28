@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfTutorialSamples.AudioAndVideo.MediaPlayerAudioControlSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen"
+        Title="MediaPlayerAudioControlSample" Height="120" Width="300">
+    <StackPanel Margin="10">
+        <Label Name="lbStatus" Content="Not playing..." HorizontalAlignment="Center"
+               Margin="5"/>
+        <WrapPanel HorizontalAlignment="Center">
+            <Button Name="btnPlay" Click="btnPlay_Click">Play</Button>
+            <Button Name="btnPause" Click="btnPause_Click" Margin="5,0">Pause</Button>
+            <Button Name="btnStop" Click="btnStop_Click">Stop</Button>
+        </WrapPanel>
+    </StackPanel>
+</Window>
